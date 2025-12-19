@@ -1,0 +1,17 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+package src;
+
+import javax.swing.JFrame;
+
+public class CarGame {
+   public CarGame() {
+   }
+
+   public static void main(String[] var0) {
+      JFrame var1 = new JFrame("2D Car Racing Game");
+      var1.setSize(400, 600);
+      var1.setDefaultCloseOperation(3);
+      var1.setResizable(false);
+      var1.setVisible(true);
+   }
+}
