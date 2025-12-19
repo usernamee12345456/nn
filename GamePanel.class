@@ -1,0 +1,20 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+package src;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import javax.swing.JPanel;
+
+public class GamePanel extends JPanel {
+   public GamePanel() {
+      this.setBackground(Color.GRAY);
+   }
+
+   protected void paintComponent(Graphics var1) {
+      super.paintComponent(var1);
+      var1.setColor(Color.DARK_GRAY);
+      var1.fillRect(150, 0, 100, 600);
+      var1.setColor(Color.RED);
+      var1.fillRect(180, 450, 40, 80);
+   }
+}
